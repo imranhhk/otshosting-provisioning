@@ -4,6 +4,6 @@
 
 - name: Install wine
   apt:
-    pkg: wine-stable
+    pkg: wine
     state: latest
     update_cache: yes
